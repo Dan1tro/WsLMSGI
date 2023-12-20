@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h1_cafe{
+    font-size: 40px;
+}
+section {
+    color: #2c4363;
+}
+
+#cafe_main{
+    width: 50vw;
+}
+#cupcake_main{
+    width: 500px;
+}
+
+#arrozcongri_main{
+    width: 50vw;
+}
+
+#ropa_vieja_main{
+    width: 500px;
+}
+.peru{
+    color: #554228;
+}

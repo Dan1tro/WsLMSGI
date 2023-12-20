@@ -1,0 +1,31 @@
+
+.xbox {
+    
+    list-style-image: url(../img/icons8-xbox-50.png);
+    margin-left: 20px;  
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+.play{
+    list-style-image: url(../img/icons8-playstation-50.png);
+    margin-left: 20px;  
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    
+} 
+.nin{
+    list-style-image: url(../img/icons8-nintendo-switch-logo-50.png);
+    margin-left: 20px;  
+    margin-top: 20px; 
+    margin-bottom: 20px;
+} 
+.pasos{
+ list-style: upper-alpha;   
+}
+
+.cuadrados{
+    list-style: square;
+}
+.romanos{
+    list-style: lower-roman;
+}

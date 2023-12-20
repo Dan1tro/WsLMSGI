@@ -1,0 +1,32 @@
+.list_1{
+    color: white;
+    background-color: #9c9c9c;
+}
+.list_2{
+    color: blue;
+    background-color: red;
+}
+
+header{
+    color: yellow;
+    background-color: black;
+}
+footer{
+    color: white;
+    background-color: darkblue;
+}
+
+#headline_1{
+    text-align: center;
+}
+#headline_2{
+    text-align: center;
+}
+
+h3.gray{
+    color: gray;
+}
+
+h3.center{
+    text-align: center;
+}

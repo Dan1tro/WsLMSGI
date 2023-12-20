@@ -1,0 +1,17 @@
+p.tnr{
+    border: 3px solid blue;
+}
+h1{
+    border-style: solid;
+    border-color: blue;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+}
+#especial{
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-right-style: groove;
+}

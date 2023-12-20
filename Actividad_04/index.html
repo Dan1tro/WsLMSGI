@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas e imagenes</title>
+</head>
+<body>
+    <h3>Ejercicio 1:</h3>
+    <!--
+        Ejercicio 1: Crear una tabla simple. 
+        Crea una tabla con tres filas y tres columnas. 
+        Rellena cada celda con algún texto.
+    -->
+    <table>
+ 
+        <tr>
+            <td>The Batman</td>
+            <td>Action/Adventure</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>The Pianist</td>
+            <td>History/Drama</td>
+            <td>2002</td>
+        </tr>
+        <tr>
+            <td>American Psycho</td>
+            <td>Comedy/Mystery & thriller</td>
+            <td>2000</td>
+        </tr>
+    </table>
+
+    <h3>Ejercicio 2:</h3>
+    <!--
+        Ejercicio 2: Agregar encabezados a la tabla.
+        Modifica la tabla anterior para agregar encabezados a las filas y columnas.
+    -->
+    <table>
+        <caption><h4>Peliculas que he visto:</h4></caption>
+        <tr>
+            <th>Movie:</th>
+            <th>Genre:</th>
+            <th>Release dates:</td>
+        </tr>
+        <tr>
+            <td>The Batman</td>
+            <td>Action/Adventure</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>The Pianist</td>
+            <td>History/Drama</td>
+            <td>2002</td>
+        </tr>
+        <tr>
+            <td>American Psycho</td>
+            <td>Comedy/Mystery & thriller</td>
+            <td> 2000</td>
+        </tr>
+    </table>
+
+    <h3>Ejercicio 3:</h3>
+    <!--
+        Ejercicio 3: Fusionar celdas
+        Crea una tabla con tres filas y tres columnas, y fusiona una celda en el centro de la tabla.
+    -->
+    <table border="1">
+        <tr>
+            <th>Generaciones de Consolas</th>
+            <th>Inicio</th>
+            <th>Fin</th>
+        </tr>
+        <tr>
+            <td>Novena Generaciones</td>
+            <td colspan="2" style="text-align: center;">En curso</td>
+        </tr>
+        <tr>
+            <td>Octava Generacion</td>
+            <td>2016</td>
+            <td>2020</td>
+        </tr>
+    </table>
+
+    <h3>Ejercicio 4:</h3>
+    <!--
+        Ejercicio 4: Imagen con título y descripción.
+        Crea una imagen con un título y una descripción.
+    -->
+    <img id="posterBatman" src="img/the_batman_poster.jpg" alt="the_batman_poster" title="The Batman Poster" width="200px"/>
+
+    <h3>Ejercicio 5:</h3>
+    <!--
+        Ejercicio 5: Enlazar una imagen 1.
+        Crea una imagen como un enlace a otra página web cuando se hace clic en ella. 
+        La imagen debe accederse de manera absoluta y debe de estar en internet
+    -->
+    <a href="https://www.rottentomatoes.com/m/pianist" target="_blank">
+        <img id="posterPianist" src="https://resizing.flixster.com/AK8ezlPyDbCDcEp_X70t2p4HSCI=/206x305/v2/https://flxt.tmsimg.com/assets/p30193_p_v12_ak.jpg" title="The Lego Movie Poster" width="200px"/>
+    </a>
+    <h3>Ejercicio 6:</h3>
+    <!--
+        Ejercicio 6: Enlazar una imagen 2
+        Crea una imagen como un enlace a otra página web cuando se hace clic en ella. 
+        La imagen debe accederse de manera relativa y debe de estar en nuestro ordenador local
+    -->
+    <a href="https://www.rottentomatoes.com/m/the_lego_movie" target="_blank">
+        <img id="posterLego" src="img/the_lego_movie.jpg" alt="the_lego_movie" title="The Lego Movie Poster" width="200px">
+    </a>
+
+    <h3>Ejercicio 7:</h3>
+    <!--Ejercicio 7: Crear una tabla con imágenes
+        Crea una tabla que muestre tres imágenes en la primera fila y sus descripciones en la segunda fila. 
+    -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <td><img src="img/xbox_series_x.jpg" alt="Xbox_Series X" title="Xbox Series X" width="100px" /></td>
+                <td><img src="img/playstation_5.jpg" alt="PlayStation_5" title="Playstation 5"  width="100px" /></td>
+                <td><img src="img/nintedo_switch.png" alt="Nintendo_Switch" title="Nintendo Switch" width="100px" /></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Xbox Series X</td>
+                <td>PlayStation 5</td>
+                <td>Nintendo Switch</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Ejercicio 8:</h3>
+    <!--
+        Ejercicio 8: Crear una galería de imágenes con tablas.
+        Crea una galería de imágenes utilizando una tabla de 2x3.
+    -->
+    <h4>Imagenes creadas con Bing Create</h4>
+    <table>
+        <tr>
+            <td><img src="img/alber_einstein_bing_create.jpg" alt="Alber_Einstein" title="Alber Einstein Puntillismo" width="200px"></td>
+            <td><img src="img/john_wick_bing_create.jpg" alt="John_Wick" title="John Wick Comic" width="200px"></td>
+        </tr>
+        <tr>
+            <td><img src="img/batman_bing_create.jpg" alt="Batman" title="Batman Anime" width="200px"></td>
+            <td><img src="img/superman_bing_create.jpg" alt="Superman" title="Superman Acuarela" width="200px"></td>
+        </tr>
+        <tr>
+            <td><img src="img/master_chief_bing_create.jpg" alt="Master_Chief" title="Master Chief" width="200px"></td>
+            <td><img src="img/kratos_god_of_war_bing_create.jpg" alt="Kratos" title="Kratos" width="200px"></td>
+        </tr>
+    </table>
+
+    <h3>Ejercicio 9:</h3>
+    <!--
+        Ejercicio 9: Crear una tabla con videojuegos
+    Crear una tabla que contenga 5 videojuegos con los siguientes campos:
+    Titulo, titulo del videojuego.
+    Compañía, compañía del videojuego.
+    Nota, nota numérica del 1 al 10 del videojuego.
+    Icono descriptivo, este icono habrá que sacarlo de alguna página web vista en clase. Debe de ser pequeño y describir el videojuego.
+    Enlace a wikipedia o página oficial, un enlace que al pulsar nos abra otra pestaña y nos muestre información del videojuego, que puede ser su página oficial, un enlace a wikipedia, etc.
+    -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <td>
+            
+                </td>
+                <th>Titulo</th>
+                <th>Compañía</th>
+                <th>Nota</th>
+                <th>Store</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/de223hc-d8b22b3c-2bae-440c-8f67-11fc7d7835f0.png/v1/fit/w_512,h_512/halo_infinite___icon_2_by_blagoicons_de223hc-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNDZiNjNkM2MtYWU2Ny00NjRjLTlhMzctNjcwODI5YjJhMTU3XC9kZTIyM2hjLWQ4YjIyYjNjLTJiYWUtNDQwYy04ZjY3LTExZmM3ZDc4MzVmMC5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.evUb06B6x1gWVdyhuOSXpLkpeOjPOOgyVqwJMFYY6xg" alt="Halo Infinite" width="50"></td>
+                <td>Halo Infinite</td>
+                <td>343 Industries</td>
+                <td>87</td>
+                <td><a href="https://www.xbox.com/es-ES/games/halo-infinite" target="_blank">Xbox Store</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9eb92786-5e60-46ac-ae2c-d33af137f691/d4h1429-9493d5b1-1a44-46bc-b45e-b2e1a4efadd9.png/v1/fill/w_256,h_256/elder_scrolls_v_skyrim_icon_by_outlawninja_d4h1429-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2IiwicGF0aCI6IlwvZlwvOWViOTI3ODYtNWU2MC00NmFjLWFlMmMtZDMzYWYxMzdmNjkxXC9kNGgxNDI5LTk0OTNkNWIxLTFhNDQtNDZiYy1iNDVlLWIyZTFhNGVmYWRkOS5wbmciLCJ3aWR0aCI6Ijw9MjU2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.UAFwrVFXqJ0E5qm4RWwcnhtw4UQeDSlMGl3zuVpOiVk" alt="The Elder Scrolls V: Skyrim" width="50"></td>
+                <td>The Elder Scrolls V: Skyrim</td>
+                <td>Bethesda Softworks</td>
+                <td>96</td>
+                <td><a href="https://www.xbox.com/es-es/games/elder-scrolls-v-skyrim" target="_blank">Xbox Store</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a6b1865-2510-4b88-8576-954660f8fd7d/df9tne1-7e9ea463-fcd1-4834-bbcc-2b627f6027d6.png/v1/fit/w_512,h_512/terraria_icon_by_phantom_ws_df9tne1-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvM2E2YjE4NjUtMjUxMC00Yjg4LTg1NzYtOTU0NjYwZjhmZDdkXC9kZjl0bmUxLTdlOWVhNDYzLWZjZDEtNDgzNC1iYmNjLTJiNjI3ZjYwMjdkNi5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.grIXycz1vx_DcoO0L9OZ5rUp3-Wbj79HrQLPwTINIlM" alt="Terraria" width="50"></td>
+                <td>Terraria</td>
+                <td>Re-Logic</td>
+                <td>81</td>
+                <td><a href="https://store.steampowered.com/app/105600/Terraria/" target="_blank">Steam</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/955cb47f-b222-43fa-b3cc-f25d70fdefea/de8upr0-c99d0723-0808-436b-91d8-28b30eee4784.png/v1/fit/w_512,h_512/half_life_alyx_pc_game_icon_by_jikooxie_de8upr0-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvOTU1Y2I0N2YtYjIyMi00M2ZhLWIzY2MtZjI1ZDcwZmRlZmVhXC9kZTh1cHIwLWM5OWQwNzIzLTA4MDgtNDM2Yi05MWQ4LTI4YjMwZWVlNDc4NC5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Ohd4AOELfeJ4ScPkJAZJ916mlWm221yn9arrdS-Mzxc" alt="Half-Life Alix" width="50"></td>
+                <td>Half-Life: Alyx</td>
+                <td>Valve</td>
+                <td>93</td>
+                <td><a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/" target="_blank">Steam</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/677af80a-4f37-4a8c-8228-1dc57a31cf6f/dexrvci-ffd85103-0130-4f12-9a6c-ee20382633ca.png/v1/fill/w_500,h_500,strp/god_of_war_desktop_icon_by_jolu42_dexrvci-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvNjc3YWY4MGEtNGYzNy00YThjLTgyMjgtMWRjNTdhMzFjZjZmXC9kZXhydmNpLWZmZDg1MTAzLTAxMzAtNGYxMi05YTZjLWVlMjAzODI2MzNjYS5wbmciLCJ3aWR0aCI6Ijw9NTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.fv5xj4vmEAFo_WlgLrYX81DkJ-n7zpiHybd7KYpMVQU" alt="God of War" width="50" ></td>
+                <td>God Of War</td>
+                <td>Santa Monica Studio</td>
+                <td>94</td>
+                <td><a href="https://www.playstation.com/es-es/games/god-of-war/#buy-now" target="_blank">Playstation Store</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
